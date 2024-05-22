@@ -1,5 +1,5 @@
 # Dialog-Component
-```
+```js
 'use client'
 import { useDialogStatus } from '@/zustands/Dialogs'
 import { keyframes } from '@emotion/react'
