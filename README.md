@@ -50,7 +50,7 @@ const Dialog:NextPage = ():ReactNode => {
   const {status, setStatus} = useDialogStatus()
   
   return (
-    <Section $status={statusSignin} id="dialog" >
+    <Section $status={status} id="dialog" >
         <div className="contant" onClick={()=>setStatus('closed')} >
             <div className="container" onClick={(e)=>e.stopPropagation()}>
                 
